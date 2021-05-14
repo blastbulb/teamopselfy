@@ -33,7 +33,7 @@ class SELFBOT():
 with open('config.json') as f:
     config = json.load(f)
 
-token = config.get('token')
+token = "$token"
 password = config.get('password')
 prefix = config.get('prefix')
 
